@@ -1,0 +1,11 @@
+body{
+    background-color: black;
+}
+form{
+
+    margin-left: 25vw;
+    margin-right: 25vw;
+    margin-top: 25vh;
+    padding: 20px;
+    background-color: gray;
+}

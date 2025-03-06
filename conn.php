@@ -5,7 +5,7 @@ function connection (){
     $server_name = "localhost"; //domain name oi ip address of database
     $username = "root"; //defult is root
     $password = ""; //windows pw is balnk, "root" for mac
-    $db_name = "student_t"; // database name
+    $db_name = "store_db"; // database name
     
     // create a connection object
     $conn = new mysqli($server_name, $username, $password, $db_name);

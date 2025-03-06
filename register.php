@@ -31,16 +31,6 @@ if(isset($_POST['btn_signup']) ){
 
 }
 ?>
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -58,14 +48,14 @@ if(isset($_POST['btn_signup']) ){
                 </div>
                 <div class="card-body">
                     <form action="" method="post">
-                        <div class="mb-3"><label for="first-name" class="form-label small fw-bold">First Name</label><input type="text" name="first_name" id="first-name" maxlenght="50" required autofocus class="form-control fw-bold">
+                        <div class="mb-3"><label for="first-name" class="form-label small fw-bold">First Name</label><input type="text" name="first_name" id="first-name" maxlength="50" required autofocus class="form-control fw-bold">
                     </div>
-                        <div class="mb-3"><label for="last-name" class="form-label small fw-bold">Last Name</label><input type="text" name="last_name" id="last-name" maxlenght="50" required  class="form-control fw-bold">
+                        <div class="mb-3"><label for="last-name" class="form-label small fw-bold">Last Name</label><input type="text" name="last_name" id="last-name" maxlength="50" required  class="form-control fw-bold">
                     </div>
-                        <div class="mb-3"><label for="username" class="form-label small fw-bold">Username</label><input type="text" name="username" id="username" maxlenght="15" required  class="form-control fw-bold">
+                        <div class="mb-3"><label for="username" class="form-label small fw-bold">Username</label><input type="text" name="username" id="username" maxlength="15" required  class="form-control fw-bold">
                     </div>
                         <div class="mb-3"><label for="password" class="form-label small fw-bold">Password</label>
-                        <input type="password" name="password" id="password" class="form-control mb-2" required>    
+                        <input type="password" name="password" id="password" class="form-control mb-2" required>
                     </div>
                         <div class="mb-5"><label for="confirm-password" class="form-label small fw-bold">Confirm Password</label><input type="password" name="confirm_password" id="confirm-password" class="form-control mb-2" required>
                     </div>
@@ -75,10 +65,6 @@ if(isset($_POST['btn_signup']) ){
             </div>            
         </div>     
     </div>
-
-
-
-
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
